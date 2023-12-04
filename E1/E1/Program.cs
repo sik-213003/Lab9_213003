@@ -8,7 +8,7 @@ namespace E1
     {
         static void Main(string[] args)
         {
-            string CS = "Data Source=DESKTOP-ERUUV97\\SQLEXPRESS;Initial Catalog=ProductDB;Integrated Security=True";
+            string CS = "Data Source=DESKTOP-PC943207\\SQLEXPRESS;Initial Catalog=ProductDB;Integrated Security=True";
             string QS = "SELECT ProductID, UnitPrice, ProductName FROM Products" + " WHERE UnitPrice > 350" + " ORDER BY UnitPrice DESC";
 
             int paramValue = 5;
